@@ -14,7 +14,8 @@
 <body>
 
 <div class="logo">
-    <i class="ph-fill ph-paw-print"></i>
+    <i class="ph-fill ph-paw-print position-relative"></i>
+    <a class="stretched-link" href="{{ route('dashboard') }}"><span class="visually-hidden">Go to Home Page</span></a>
 </div>
 
 <div class="toggle-darkmode" id="darkModeToggle">
